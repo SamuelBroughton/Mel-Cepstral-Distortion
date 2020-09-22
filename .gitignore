@@ -1,3 +1,9 @@
 .idea/
 .ipynb_checkpoints/
 __pycache__/
+
+# temp test files
+all_tests.ipynb
+data/VCC2018_corpus/
+data/*/mceps/*/bap/
+data/*/mceps/*/lf0/

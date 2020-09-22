@@ -1,13 +1,11 @@
-# Mel Cepstral Distance
+# Mel-Cepstral Distortion
 
-This repo is concerned with finding the Mel Cepstral Distance between `.wav` files.
+This repo is concerned with finding the Mel Cepstral Distortion between `.wav` files.
 
 # Dependencies
 
-* pyworld
 * librosa
 * mcd
-* tqdm
 
 # Installation
 
@@ -15,16 +13,14 @@ This repo is concerned with finding the Mel Cepstral Distance between `.wav` fil
 
 ## Python packages
 
-**NB:**
-
-* For mac users who cannot install pyworld see: https://github.com/JeremyCCHsu/Python-Wrapper-for-World-Vocoder
-
 ```
 conda install -c conda-forge librosa
-pip install pyworld==0.2.8
-pip install tqdm==4.41.1
 pip install mcd==0.4
 ```
 
 # Usage
 See the Jupyter notebook for example usage
+
+# TODO:
+- [ ] Update dependencies and packages used in README, more detailed installation
+- [ ] Include scripts on extracting acoustic audio features
