@@ -1,9 +1,17 @@
+# Editors
 .idea/
+.vscode/
+
+# Python
 .ipynb_checkpoints/
 __pycache__/
 
-# temp test files
+# Project creation files
+data/*/mceps_numpy/
+
+# Personal test files
 all_tests.ipynb
+binary_io.py
 data/VCC2018_corpus/
-data/*/mceps/*/bap/
-data/*/mceps/*/lf0/
+data/*/mceps/
+data/*/mceps/
